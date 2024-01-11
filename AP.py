@@ -27,10 +27,10 @@ while True:
         print("Tecla ENTER enviada.")
         time.sleep(5)
     elif "Username:" in resposta:
-        enviar_comando(ser, "Cisco")
+        enviar_comando(ser, "Digito o login")
         time.sleep(3)
     elif "Password:" in resposta:
-        enviar_comando(ser, "Cisco")
+        enviar_comando(ser, "Digite a senha")
         time.sleep(3)
     elif "%Error opening tftp://255.255.255.255/ap1g2-k9w7-tar.default (connection timed out)ap:" in resposta:
         enviar_comando(ser, "dir flash:")
